@@ -55,7 +55,8 @@ def load_catalogue():
         ])))
 
     # Embeddings
-    _model      = SentenceTransformer('all-MiniLM-L6-v2')
+    # _model      = SentenceTransformer('all-MiniLM-L6-v2')
+    _model      = SentenceTransformer("paraphrase-MiniLM-L3-v2")
     _embeddings = _model.encode(texts, convert_to_numpy=True)
 
     _ITEM_TYPES = set(p['name'].lower() for p in _catalogue)
