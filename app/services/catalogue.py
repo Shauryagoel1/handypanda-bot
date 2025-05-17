@@ -6,6 +6,7 @@ from numpy.linalg import norm
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from flask import current_app
+import pandas as pd
 
 from app.services import sheets   # <-- new import for Google-Sheets loader
 
@@ -123,7 +124,7 @@ def enhanced_search(query: str, top_n: int = 3):
 
     q_low   = query.lower()
     q_embed = _model.encode(query, convert_to_numpy=True)
-
+    
     # Item-type match (plural-aware)
     matched_types = [t for t in _ITEM_TYPES if re.search(rf'\b{re.escape(t)}s?\b', q_low)]
 

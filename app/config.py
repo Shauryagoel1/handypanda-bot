@@ -13,6 +13,6 @@ class Config:
     GOOGLE_SHEET_TITLE      = os.getenv('GOOGLE_SHEET_TITLE', 'Jirago Ops')
     CATALOGUE_TAB           = os.getenv('CATALOGUE_TAB', 'Catalogue')
     ORDERS_TAB              = os.getenv('ORDERS_TAB', 'Orders_Status')
-
+    ORDERS_LOG_TAB          = os.getenv('ORDERS_LOG_TAB', 'Orders_Log')
     # Catalogue file fallback (rarely used now—most loads from Sheets)
     CATALOGUE_FILE = os.getenv('CATALOGUE_FILE', 'catalogue_master.csv')
