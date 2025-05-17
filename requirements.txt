@@ -1,5 +1,6 @@
 # Existing dependencies
 Flask==2.1.2
+gunicorn
 Werkzeug==2.0.3
 gspread==5.10.0
 oauth2client==4.1.3
