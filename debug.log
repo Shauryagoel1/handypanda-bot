@@ -1,0 +1,884 @@
+2025-05-17 22:36:03,767 - WARNING -  * Debugger is active!
+2025-05-17 22:36:03,770 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:36:04,017 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:36:04,068 - WARNING -  * Debugger is active!
+2025-05-17 22:36:04,070 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:36:04,325 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:36:04,963 - WARNING -  * Debugger is active!
+2025-05-17 22:36:04,969 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:36:05,212 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:36:36,484 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:36:36,493 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:36:36,655 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:36:42,683 - WARNING -  * Debugger is active!
+2025-05-17 22:36:42,686 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:36:42,687 - WARNING -  * Debugger is active!
+2025-05-17 22:36:42,691 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:36:42,772 - WARNING -  * Debugger is active!
+2025-05-17 22:36:42,776 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:36:42,938 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:36:42,938 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:36:43,045 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:37:12,914 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\catalogue.py', reloading
+2025-05-17 22:37:12,949 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\catalogue.py', reloading
+2025-05-17 22:37:13,058 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\catalogue.py', reloading
+2025-05-17 22:37:19,230 - WARNING -  * Debugger is active!
+2025-05-17 22:37:19,234 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:37:19,510 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:37:19,993 - WARNING -  * Debugger is active!
+2025-05-17 22:37:19,998 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:37:20,023 - WARNING -  * Debugger is active!
+2025-05-17 22:37:20,025 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:37:20,229 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:37:20,262 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:38:22,599 - INFO - 
+==================================================
+2025-05-17 22:38:22,741 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:38:22,772 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:38:22,775 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:38:23,211 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:38:23,212 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:38:23,835 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:38:23,837 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:38:24,525 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:38:25,010 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:38:25,521 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Catalogue%27 HTTP/1.1" 200 None
+2025-05-17 22:38:25,534 - INFO - Use pytorch device_name: cpu
+2025-05-17 22:38:25,534 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-05-17 22:38:25,536 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-17 22:38:26,414 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:38:27,132 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-17 22:38:27,394 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-17 22:38:27,634 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:38:27,870 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-17 22:38:28,155 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-17 22:38:28,799 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-17 22:38:29,275 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-17 22:38:29,619 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 3897
+2025-05-17 22:38:29,861 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2 HTTP/1.1" 200 3897
+2025-05-17 22:38:29,935 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:38:29,967 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:38:29,969 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:38:30,306 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:38:30,316 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:38:31,026 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:38:31,029 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:38:31,603 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:38:32,077 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:38:32,585 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:38:32,618 - ERROR - Traceback (most recent call last):
+  File "D:\Shaurya\Startup\Jirago\app\routes.py", line 120, in webhook
+    sheets.append_order(order_data)
+  File "D:\Shaurya\Startup\Jirago\app\services\sheets.py", line 179, in append_order
+    raise ValueError(error_msg)
+ValueError: Missing required columns in Orders sheet: {'Timestamp'}
+
+2025-05-17 22:38:32,620 - INFO - 127.0.0.1 - - [17/May/2025 22:38:32] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:39:16,105 - INFO - 
+==================================================
+2025-05-17 22:39:16,179 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:39:16,214 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:39:16,215 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:39:16,564 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:39:16,565 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:39:17,261 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:39:17,272 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:39:17,928 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:39:18,426 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:39:19,009 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:39:19,025 - ERROR - Traceback (most recent call last):
+  File "D:\Shaurya\Startup\Jirago\app\routes.py", line 120, in webhook
+    sheets.append_order(order_data)
+  File "D:\Shaurya\Startup\Jirago\app\services\sheets.py", line 179, in append_order
+    raise ValueError(error_msg)
+ValueError: Missing required columns in Orders sheet: {'Timestamp'}
+
+2025-05-17 22:39:19,026 - INFO - 127.0.0.1 - - [17/May/2025 22:39:19] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:39:22,770 - INFO - 
+==================================================
+2025-05-17 22:39:22,832 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:39:22,878 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:39:22,879 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:39:23,220 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:39:23,222 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:39:23,832 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:39:23,832 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:39:24,352 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:39:24,804 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:39:25,337 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:39:25,352 - ERROR - Traceback (most recent call last):
+  File "D:\Shaurya\Startup\Jirago\app\routes.py", line 120, in webhook
+    sheets.append_order(order_data)
+  File "D:\Shaurya\Startup\Jirago\app\services\sheets.py", line 179, in append_order
+    raise ValueError(error_msg)
+ValueError: Missing required columns in Orders sheet: {'Timestamp'}
+
+2025-05-17 22:39:25,354 - INFO - 127.0.0.1 - - [17/May/2025 22:39:25] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:40:10,607 - INFO - 
+==================================================
+2025-05-17 22:40:10,666 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:40:10,698 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:40:10,698 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:40:10,937 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:40:10,937 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:40:11,843 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:40:11,843 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:40:12,510 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:40:13,005 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:40:13,495 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:40:14,143 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:40:14,152 - INFO - 127.0.0.1 - - [17/May/2025 22:40:14] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:40:17,947 - INFO - 
+==================================================
+2025-05-17 22:40:18,032 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:40:18,067 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:40:18,067 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:40:18,438 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:40:18,438 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:40:19,015 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:40:19,015 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:40:19,585 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:40:20,077 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:40:20,498 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:40:21,092 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:40:21,102 - INFO - 127.0.0.1 - - [17/May/2025 22:40:21] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:41:37,252 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:41:37,804 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:41:37,822 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:41:44,085 - WARNING -  * Debugger is active!
+2025-05-17 22:41:44,092 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:41:44,339 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:41:44,374 - WARNING -  * Debugger is active!
+2025-05-17 22:41:44,380 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:41:44,391 - WARNING -  * Debugger is active!
+2025-05-17 22:41:44,395 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:41:44,646 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:41:44,649 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:42:10,081 - INFO - 
+==================================================
+2025-05-17 22:42:10,130 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:42:10,161 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:42:10,161 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:42:10,545 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:42:10,545 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:42:11,279 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:42:11,281 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:42:11,689 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:42:12,048 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:42:12,050 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:42:18,103 - WARNING -  * Debugger is active!
+2025-05-17 22:42:18,107 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:42:18,361 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:42:18,908 - WARNING -  * Debugger is active!
+2025-05-17 22:42:18,912 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:42:18,912 - WARNING -  * Debugger is active!
+2025-05-17 22:42:18,914 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:42:19,150 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:42:19,150 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:42:20,221 - INFO - 
+==================================================
+2025-05-17 22:42:20,276 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:42:20,312 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:42:20,316 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:42:20,840 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:42:20,842 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:42:21,649 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:42:21,651 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:42:22,413 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:42:22,896 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:42:23,335 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Catalogue%27 HTTP/1.1" 200 None
+2025-05-17 22:42:23,353 - INFO - Use pytorch device_name: cpu
+2025-05-17 22:42:23,353 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-05-17 22:42:23,354 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-17 22:42:23,837 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:42:24,074 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-17 22:42:24,363 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-17 22:42:24,618 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:42:24,870 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-17 22:42:25,113 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-17 22:42:25,381 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-17 22:42:25,852 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-17 22:42:26,179 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 3897
+2025-05-17 22:42:26,421 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2 HTTP/1.1" 200 3897
+2025-05-17 22:42:26,486 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:42:26,518 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:42:26,518 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:42:26,918 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:42:26,920 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:42:27,573 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:42:27,575 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:42:28,399 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:42:28,886 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:42:29,386 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:42:29,961 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:42:29,969 - INFO - 127.0.0.1 - - [17/May/2025 22:42:29] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:43:05,882 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:43:06,361 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:43:06,380 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:43:12,429 - WARNING -  * Debugger is active!
+2025-05-17 22:43:12,432 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:43:12,523 - WARNING -  * Debugger is active!
+2025-05-17 22:43:12,523 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:43:12,562 - WARNING -  * Debugger is active!
+2025-05-17 22:43:12,567 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:43:12,678 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:43:12,771 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:43:12,806 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:43:47,325 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:43:47,610 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:43:47,614 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:43:53,903 - WARNING -  * Debugger is active!
+2025-05-17 22:43:53,907 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:43:54,028 - WARNING -  * Debugger is active!
+2025-05-17 22:43:54,032 - WARNING -  * Debugger is active!
+2025-05-17 22:43:54,032 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:43:54,035 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:43:54,158 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:43:54,279 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:43:54,284 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:43:54,919 - INFO - 
+==================================================
+2025-05-17 22:43:54,962 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:43:54,991 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:43:54,994 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:43:55,429 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:43:55,430 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:43:56,179 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:43:56,181 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:43:56,794 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:43:57,279 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:43:57,737 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Catalogue%27 HTTP/1.1" 200 None
+2025-05-17 22:43:57,753 - INFO - Use pytorch device_name: cpu
+2025-05-17 22:43:57,753 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-05-17 22:43:57,755 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-17 22:43:58,519 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:43:59,231 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-17 22:43:59,913 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-17 22:44:00,282 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:44:00,662 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-17 22:44:00,991 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-17 22:44:01,298 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-17 22:44:01,837 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-17 22:44:02,123 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 3897
+2025-05-17 22:44:02,357 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2 HTTP/1.1" 200 3897
+2025-05-17 22:44:02,421 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:44:02,455 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:44:02,455 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:44:02,794 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:44:02,796 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:44:03,509 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:44:03,511 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:44:04,087 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:44:04,584 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:44:05,073 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:44:05,615 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:44:05,625 - INFO - 127.0.0.1 - - [17/May/2025 22:44:05] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:44:30,542 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:44:30,553 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:44:30,831 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:44:37,042 - WARNING -  * Debugger is active!
+2025-05-17 22:44:37,046 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:44:37,086 - WARNING -  * Debugger is active!
+2025-05-17 22:44:37,086 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:44:37,221 - WARNING -  * Debugger is active!
+2025-05-17 22:44:37,223 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:44:37,302 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:44:37,362 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:44:37,484 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:44:38,744 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:44:38,795 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:44:38,971 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:44:45,342 - WARNING -  * Debugger is active!
+2025-05-17 22:44:45,347 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:44:45,381 - WARNING -  * Debugger is active!
+2025-05-17 22:44:45,384 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:44:45,403 - WARNING -  * Debugger is active!
+2025-05-17 22:44:45,407 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:44:45,586 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:44:45,645 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:44:45,658 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:45:13,114 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:45:13,122 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:45:13,155 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:45:19,805 - WARNING -  * Debugger is active!
+2025-05-17 22:45:19,805 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:45:19,825 - WARNING -  * Debugger is active!
+2025-05-17 22:45:19,835 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:45:19,845 - WARNING -  * Debugger is active!
+2025-05-17 22:45:19,855 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:45:20,056 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:45:20,076 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:45:20,096 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:45:21,437 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:45:21,462 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:45:21,474 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:45:27,937 - WARNING -  * Debugger is active!
+2025-05-17 22:45:27,941 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:45:27,949 - WARNING -  * Debugger is active!
+2025-05-17 22:45:27,951 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:45:27,958 - WARNING -  * Debugger is active!
+2025-05-17 22:45:27,962 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:45:28,192 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:45:28,198 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:45:28,209 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:45:28,607 - INFO - 
+==================================================
+2025-05-17 22:45:28,646 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:45:28,677 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:45:28,678 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:45:29,032 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:45:29,032 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:45:29,745 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:45:29,748 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:45:30,237 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:45:30,654 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:45:31,060 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Catalogue%27 HTTP/1.1" 200 None
+2025-05-17 22:45:31,069 - INFO - Use pytorch device_name: cpu
+2025-05-17 22:45:31,069 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-05-17 22:45:31,073 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-17 22:45:32,054 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:45:32,366 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-17 22:45:33,026 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-17 22:45:33,263 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:45:33,521 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-17 22:45:33,787 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-17 22:45:34,030 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-17 22:45:34,501 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-17 22:45:34,848 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 3897
+2025-05-17 22:45:35,502 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2 HTTP/1.1" 200 3897
+2025-05-17 22:45:35,558 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:45:35,589 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:45:35,591 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:45:35,994 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:45:35,996 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:45:36,667 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:45:36,668 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:45:37,078 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:45:37,563 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:45:38,164 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:45:38,274 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:45:38,357 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:45:38,400 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:45:44,992 - WARNING -  * Debugger is active!
+2025-05-17 22:45:44,992 - WARNING -  * Debugger is active!
+2025-05-17 22:45:44,996 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:45:44,998 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:45:45,225 - WARNING -  * Debugger is active!
+2025-05-17 22:45:45,230 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:45:45,280 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:45:45,282 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:45:45,493 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:45:55,945 - INFO - 
+==================================================
+2025-05-17 22:45:55,988 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:45:56,019 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:45:56,022 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:45:56,424 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:45:56,424 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:45:57,153 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:45:57,160 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:45:57,730 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:45:58,218 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:45:58,635 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Catalogue%27 HTTP/1.1" 200 None
+2025-05-17 22:45:58,645 - INFO - Use pytorch device_name: cpu
+2025-05-17 22:45:58,645 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-05-17 22:45:58,646 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-17 22:45:58,975 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:45:59,660 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-17 22:45:59,895 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-17 22:46:00,598 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:46:00,889 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-17 22:46:01,192 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-17 22:46:01,426 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-17 22:46:01,943 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-17 22:46:02,254 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 3897
+2025-05-17 22:46:02,628 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2 HTTP/1.1" 200 3897
+2025-05-17 22:46:02,696 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:46:02,732 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:46:02,733 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:46:03,167 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:46:03,170 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:46:03,839 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:46:03,842 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:46:04,457 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:46:04,917 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:46:05,308 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:46:05,798 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:46:05,805 - INFO - 127.0.0.1 - - [17/May/2025 22:46:05] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:46:59,945 - INFO - 
+==================================================
+2025-05-17 22:47:00,015 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:47:00,044 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:47:00,052 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:47:00,461 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:47:00,463 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:47:01,155 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:47:01,158 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:47:01,756 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:47:02,132 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:47:02,603 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:47:03,094 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:47:03,108 - INFO - 127.0.0.1 - - [17/May/2025 22:47:03] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:49:23,625 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\config.py', reloading
+2025-05-17 22:49:23,890 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\config.py', reloading
+2025-05-17 22:49:23,951 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\config.py', reloading
+2025-05-17 22:49:29,962 - WARNING -  * Debugger is active!
+2025-05-17 22:49:29,962 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:49:30,229 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:49:30,817 - WARNING -  * Debugger is active!
+2025-05-17 22:49:30,817 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:49:30,827 - WARNING -  * Debugger is active!
+2025-05-17 22:49:30,827 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:49:31,071 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:49:31,073 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:49:34,170 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:49:34,993 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:49:35,005 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:49:40,320 - WARNING -  * Debugger is active!
+2025-05-17 22:49:40,320 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:49:40,596 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:49:41,331 - WARNING -  * Debugger is active!
+2025-05-17 22:49:41,332 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:49:41,360 - WARNING -  * Debugger is active!
+2025-05-17 22:49:41,363 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:49:41,590 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:49:41,613 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:49:41,968 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:49:47,911 - WARNING -  * Debugger is active!
+2025-05-17 22:49:47,914 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:49:48,153 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:49:56,721 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:49:56,726 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:49:56,946 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:50:03,108 - WARNING -  * Debugger is active!
+2025-05-17 22:50:03,111 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:50:03,180 - WARNING -  * Debugger is active!
+2025-05-17 22:50:03,187 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:50:03,377 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:50:03,435 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:50:03,732 - WARNING -  * Debugger is active!
+2025-05-17 22:50:03,733 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:50:03,965 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:50:08,250 - INFO - 
+==================================================
+2025-05-17 22:50:08,301 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:50:08,332 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:50:08,335 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:50:08,714 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:50:08,716 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:50:09,492 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:50:09,496 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:50:10,387 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:50:10,890 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:50:11,486 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Catalogue%27 HTTP/1.1" 200 None
+2025-05-17 22:50:11,494 - INFO - Use pytorch device_name: cpu
+2025-05-17 22:50:11,494 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-05-17 22:50:11,496 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-17 22:50:12,053 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:50:12,375 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-17 22:50:12,648 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-17 22:50:12,878 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:50:13,120 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-17 22:50:13,370 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-17 22:50:13,604 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-17 22:50:14,513 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-17 22:50:14,787 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 3897
+2025-05-17 22:50:15,117 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2 HTTP/1.1" 200 3897
+2025-05-17 22:50:15,168 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:50:15,200 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:50:15,204 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:50:15,575 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:50:15,580 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:50:16,282 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:50:16,289 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:50:16,746 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:50:17,337 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:50:17,815 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:50:18,419 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:50:18,428 - INFO - 127.0.0.1 - - [17/May/2025 22:50:18] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:51:06,705 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:51:07,331 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:51:07,542 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:51:13,072 - WARNING -  * Debugger is active!
+2025-05-17 22:51:13,076 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:51:13,337 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:51:14,209 - WARNING -  * Debugger is active!
+2025-05-17 22:51:14,211 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:51:14,236 - WARNING -  * Debugger is active!
+2025-05-17 22:51:14,244 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:51:14,483 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:51:14,489 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:51:14,716 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:51:20,526 - WARNING -  * Debugger is active!
+2025-05-17 22:51:20,530 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:51:20,781 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:51:22,737 - INFO - 
+==================================================
+2025-05-17 22:51:22,778 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:51:22,809 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:51:22,812 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:51:23,061 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:51:23,063 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:51:23,647 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:51:23,649 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:51:24,282 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:51:24,748 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:51:25,204 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Catalogue%27 HTTP/1.1" 200 None
+2025-05-17 22:51:25,211 - INFO - Use pytorch device_name: cpu
+2025-05-17 22:51:25,212 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-05-17 22:51:25,213 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-17 22:51:25,495 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:51:25,725 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-17 22:51:25,953 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-17 22:51:26,182 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:51:26,866 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-17 22:51:27,507 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-17 22:51:27,737 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-17 22:51:28,152 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-17 22:51:28,430 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 3897
+2025-05-17 22:51:28,664 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2 HTTP/1.1" 200 3897
+2025-05-17 22:51:28,718 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:51:28,743 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:51:28,752 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:51:28,985 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:51:28,990 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:51:29,593 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:51:29,593 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:51:30,058 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:51:30,502 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:51:30,951 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:51:31,464 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:51:31,472 - INFO - 127.0.0.1 - - [17/May/2025 22:51:31] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:51:31,557 - INFO - 
+==================================================
+2025-05-17 22:51:31,614 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:51:31,639 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:51:31,639 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:51:31,870 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:51:31,876 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:51:32,470 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:51:32,472 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:51:32,940 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:51:33,417 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:51:33,883 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:51:34,430 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:51:34,442 - INFO - 127.0.0.1 - - [17/May/2025 22:51:34] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:52:20,742 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:52:20,781 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:52:21,349 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:52:27,208 - WARNING -  * Debugger is active!
+2025-05-17 22:52:27,210 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:52:27,210 - WARNING -  * Debugger is active!
+2025-05-17 22:52:27,216 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:52:27,466 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:52:27,466 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:52:27,746 - WARNING -  * Debugger is active!
+2025-05-17 22:52:27,746 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:52:27,990 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:52:28,814 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:52:28,837 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:52:29,421 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:52:35,185 - WARNING -  * Debugger is active!
+2025-05-17 22:52:35,193 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:52:35,202 - WARNING -  * Debugger is active!
+2025-05-17 22:52:35,205 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:52:35,446 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:52:35,454 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:52:35,708 - WARNING -  * Debugger is active!
+2025-05-17 22:52:35,712 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:52:35,950 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:52:49,665 - INFO - 
+==================================================
+2025-05-17 22:52:49,705 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:52:49,735 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:52:49,737 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:52:50,167 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:52:50,169 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:52:51,069 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:52:51,072 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:52:51,594 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:52:52,063 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:52:52,511 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Catalogue%27 HTTP/1.1" 200 None
+2025-05-17 22:52:52,522 - INFO - Use pytorch device_name: cpu
+2025-05-17 22:52:52,522 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-05-17 22:52:52,523 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-17 22:52:52,911 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:52:53,591 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-17 22:52:54,305 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-17 22:52:54,542 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:52:55,222 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-17 22:52:55,457 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-17 22:52:55,705 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-17 22:52:56,420 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-17 22:52:56,693 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 3897
+2025-05-17 22:52:56,931 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2 HTTP/1.1" 200 3897
+2025-05-17 22:52:56,985 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:52:57,014 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:52:57,018 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:52:57,263 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:52:57,264 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:52:57,947 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:52:57,952 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:52:58,475 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:52:58,984 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:52:59,463 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:52:59,972 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:52:59,995 - INFO - 127.0.0.1 - - [17/May/2025 22:52:59] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:53:39,984 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:53:40,376 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:53:40,898 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:53:46,184 - WARNING -  * Debugger is active!
+2025-05-17 22:53:46,184 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:53:46,438 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:53:46,666 - WARNING -  * Debugger is active!
+2025-05-17 22:53:46,669 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:53:46,925 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:53:47,127 - WARNING -  * Debugger is active!
+2025-05-17 22:53:47,133 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:53:47,421 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:53:48,375 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:53:48,856 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:53:49,038 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:53:54,581 - WARNING -  * Debugger is active!
+2025-05-17 22:53:54,587 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:53:54,844 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:53:54,957 - INFO - 
+==================================================
+2025-05-17 22:53:54,981 - ERROR - [ERROR] Failed to log message: 'ORDERS_LOG_TAB'
+2025-05-17 22:53:54,997 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:53:55,003 - WARNING -  * Debugger is active!
+2025-05-17 22:53:55,007 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:53:55,029 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:53:55,030 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:53:55,220 - WARNING -  * Debugger is active!
+2025-05-17 22:53:55,223 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:53:55,262 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:53:55,460 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:53:56,435 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:53:56,437 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:53:57,957 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:53:57,958 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:53:58,478 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:53:58,849 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:53:59,241 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Catalogue%27 HTTP/1.1" 200 None
+2025-05-17 22:53:59,249 - INFO - Use pytorch device_name: cpu
+2025-05-17 22:53:59,250 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-05-17 22:53:59,250 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-17 22:53:59,499 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:53:59,727 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-17 22:53:59,979 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-17 22:54:00,205 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:54:00,855 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-17 22:54:01,084 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-17 22:54:01,314 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-17 22:54:01,731 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-17 22:54:02,011 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 3897
+2025-05-17 22:54:02,241 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2 HTTP/1.1" 200 3897
+2025-05-17 22:54:02,291 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:54:02,322 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:54:02,326 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:54:02,552 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:54:02,554 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:54:03,170 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:54:03,170 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:54:03,672 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:54:04,126 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:54:04,502 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:54:04,947 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:54:04,959 - INFO - 127.0.0.1 - - [17/May/2025 22:54:04] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:54:19,029 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:54:20,122 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:54:20,224 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:54:25,030 - WARNING -  * Debugger is active!
+2025-05-17 22:54:25,037 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:54:25,292 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:54:26,114 - WARNING -  * Debugger is active!
+2025-05-17 22:54:26,117 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:54:26,117 - WARNING -  * Debugger is active!
+2025-05-17 22:54:26,123 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:54:26,351 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:54:26,354 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:54:48,115 - INFO - 
+==================================================
+2025-05-17 22:54:48,136 - ERROR - [ERROR] Failed to log message: 'ORDERS_LOG_TAB'
+2025-05-17 22:54:48,153 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:54:48,183 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:54:48,186 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:54:48,423 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:54:48,424 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:54:49,028 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:54:49,029 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:54:49,437 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:54:49,890 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:54:50,295 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Catalogue%27 HTTP/1.1" 200 None
+2025-05-17 22:54:50,303 - INFO - Use pytorch device_name: cpu
+2025-05-17 22:54:50,303 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-05-17 22:54:50,305 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-17 22:54:50,612 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:54:50,840 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-17 22:54:51,064 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-17 22:54:51,288 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:54:51,618 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-17 22:54:52,265 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-17 22:54:52,496 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-17 22:54:52,933 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-17 22:54:53,181 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 3897
+2025-05-17 22:54:53,438 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2 HTTP/1.1" 200 3897
+2025-05-17 22:54:53,488 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:54:53,517 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:54:53,518 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:54:53,741 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:54:53,741 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:54:54,309 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:54:54,313 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:54:54,809 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:54:55,261 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:54:55,723 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:54:56,236 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:54:56,260 - INFO - 127.0.0.1 - - [17/May/2025 22:54:56] "POST /webhook HTTP/1.1" 200 -
+2025-05-17 22:55:31,164 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:55:31,859 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:55:31,955 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:55:37,363 - WARNING -  * Debugger is active!
+2025-05-17 22:55:37,370 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:55:37,619 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:55:38,151 - WARNING -  * Debugger is active!
+2025-05-17 22:55:38,151 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:55:38,213 - WARNING -  * Debugger is active!
+2025-05-17 22:55:38,216 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:55:38,394 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:55:38,456 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:55:39,083 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\config.py', reloading
+2025-05-17 22:55:39,824 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\config.py', reloading
+2025-05-17 22:55:39,915 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\config.py', reloading
+2025-05-17 22:55:45,269 - WARNING -  * Debugger is active!
+2025-05-17 22:55:45,278 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:55:45,530 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:55:46,149 - WARNING -  * Debugger is active!
+2025-05-17 22:55:46,154 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:55:46,294 - WARNING -  * Debugger is active!
+2025-05-17 22:55:46,301 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:55:46,398 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:55:46,540 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:55:57,677 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:55:57,749 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:55:58,059 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:56:03,841 - WARNING -  * Debugger is active!
+2025-05-17 22:56:03,841 - WARNING -  * Debugger is active!
+2025-05-17 22:56:03,846 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:56:03,846 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:56:04,135 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:56:04,137 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:56:04,174 - WARNING -  * Debugger is active!
+2025-05-17 22:56:04,178 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:56:04,428 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:56:14,274 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:56:14,326 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:56:14,484 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:56:20,457 - WARNING -  * Debugger is active!
+2025-05-17 22:56:20,461 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:56:20,521 - WARNING -  * Debugger is active!
+2025-05-17 22:56:20,529 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:56:20,665 - WARNING -  * Debugger is active!
+2025-05-17 22:56:20,675 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:56:20,736 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:56:20,791 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:56:20,916 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:56:56,662 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:56:56,674 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:56:56,726 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:57:02,876 - WARNING -  * Debugger is active!
+2025-05-17 22:57:02,880 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:57:02,885 - WARNING -  * Debugger is active!
+2025-05-17 22:57:02,893 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:57:02,944 - WARNING -  * Debugger is active!
+2025-05-17 22:57:02,944 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:57:03,117 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:57:03,134 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:57:03,186 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:57:28,147 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\config.py', reloading
+2025-05-17 22:57:28,226 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\config.py', reloading
+2025-05-17 22:57:28,265 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\config.py', reloading
+2025-05-17 22:57:34,380 - WARNING -  * Debugger is active!
+2025-05-17 22:57:34,383 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:57:34,447 - WARNING -  * Debugger is active!
+2025-05-17 22:57:34,447 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:57:34,502 - WARNING -  * Debugger is active!
+2025-05-17 22:57:34,502 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:57:34,628 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:57:34,698 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:57:34,754 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:57:48,457 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:57:48,509 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:57:48,613 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\services\\sheets.py', reloading
+2025-05-17 22:57:54,804 - WARNING -  * Debugger is active!
+2025-05-17 22:57:54,807 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:57:54,807 - WARNING -  * Debugger is active!
+2025-05-17 22:57:54,807 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:57:54,921 - WARNING -  * Debugger is active!
+2025-05-17 22:57:54,921 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:57:55,056 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:57:55,064 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:57:55,171 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:57:58,923 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:57:58,999 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:57:59,106 - INFO -  * Detected change in 'D:\\Shaurya\\Startup\\Jirago\\app\\routes.py', reloading
+2025-05-17 22:58:05,081 - WARNING -  * Debugger is active!
+2025-05-17 22:58:05,090 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:58:05,104 - WARNING -  * Debugger is active!
+2025-05-17 22:58:05,108 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:58:05,165 - WARNING -  * Debugger is active!
+2025-05-17 22:58:05,173 - INFO -  * Debugger PIN: 381-811-417
+2025-05-17 22:58:05,314 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:58:05,346 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:58:05,402 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-17 22:58:19,840 - INFO - 
+==================================================
+2025-05-17 22:58:19,861 - INFO - [LOG] Logging raw message to sheet: Jirago Ops, tab: Orders_Log
+2025-05-17 22:58:19,869 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:58:19,896 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:58:19,898 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:58:20,425 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:58:20,429 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:58:21,079 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:58:21,081 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:58:21,940 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:58:22,476 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:58:22,476 - INFO - [OK] Found existing tab: Orders_Log
+2025-05-17 22:58:22,999 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Log%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:58:22,999 - INFO - [OK] Message logged successfully!
+2025-05-17 22:58:23,027 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:58:23,067 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:58:23,070 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:58:23,382 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:58:23,382 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:58:24,061 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:58:24,062 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:58:24,702 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:58:25,185 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:58:25,782 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Catalogue%27 HTTP/1.1" 200 None
+2025-05-17 22:58:25,799 - INFO - Use pytorch device_name: cpu
+2025-05-17 22:58:25,799 - INFO - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-05-17 22:58:25,801 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-05-17 22:58:26,267 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:58:26,503 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-05-17 22:58:26,747 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-05-17 22:58:27,059 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-05-17 22:58:27,297 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-05-17 22:58:27,910 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-05-17 22:58:28,154 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-05-17 22:58:28,585 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-05-17 22:58:28,912 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 3897
+2025-05-17 22:58:29,146 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2 HTTP/1.1" 200 3897
+2025-05-17 22:58:29,207 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-05-17 22:58:29,243 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-05-17 22:58:29,245 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-05-17 22:58:29,544 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-05-17 22:58:29,557 - DEBUG - Starting new HTTPS connection (1): www.googleapis.com:443
+2025-05-17 22:58:30,334 - DEBUG - https://www.googleapis.com:443 "GET /drive/v3/files?q=mimeType%3D%22application%2Fvnd.google-apps.spreadsheet%22+and+name+%3D+%22Jirago+Ops%22&pageSize=1000&supportsAllDrives=True&includeItemsFromAllDrives=True&fields=kind%2CnextPageToken%2Cfiles%28id%2Cname%2CcreatedTime%2CmodifiedTime%29 HTTP/1.1" 200 None
+2025-05-17 22:58:30,336 - DEBUG - Starting new HTTPS connection (1): sheets.googleapis.com:443
+2025-05-17 22:58:31,284 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:58:31,770 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI?includeGridData=false HTTP/1.1" 200 None
+2025-05-17 22:58:32,273 - DEBUG - https://sheets.googleapis.com:443 "GET /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27%21A1%3A1 HTTP/1.1" 200 None
+2025-05-17 22:58:32,808 - DEBUG - https://sheets.googleapis.com:443 "POST /v4/spreadsheets/1sYm7KITacmE4wfc8hoU_VZjVmxGdsrhao1Tu4KlxWjI/values/%27Orders_Status%27:append?valueInputOption=USER_ENTERED&includeValuesInResponse=False HTTP/1.1" 200 None
+2025-05-17 22:58:32,825 - INFO - 127.0.0.1 - - [17/May/2025 22:58:32] "POST /webhook HTTP/1.1" 200 -
