@@ -1,0 +1,55 @@
+Unnamed: 0,Dimensions,Std. Pkg.,Item Code,Rate Per PCS(₹),Product,Brand,Rate Per Mtr,Metadata
+0,110,26.0,SIM104182,204.6,Bend_87.5°,Prince,,
+1,160,11.0,SIM104190,488.0,Bend_87.5°,Prince,,
+0,50,,SIM205231,13152.6,Cablefit_CFD_Coil_Pipes_(200_mtr),Prince,,
+0,50,,SIM205146,6576.3,Cablefit_CFD_Coil_Pipes_-_100_mtr_(Black),Prince,,
+1,63,,SIM205147,8071.0,Cablefit_CFD_Coil_Pipes_-_100_mtr_(Black),Prince,,
+0,110,30.0,SIM104183,176.8,Bend_45°,Prince,,
+1,160,14.0,SIM104191,456.9,Bend_45°,Prince,,
+0,110,48.0,SIM104184,139.7,Coupler,Prince,,
+1,160,21.0,SIM104192,364.85,Coupler,Prince,,
+0,160 x 110,27.0,SIM104196,253.6,Reducer,Prince,,
+0,110,24.0,SIM104189,352.35,Cleansing_Pipe,Prince,,
+1,160,10.0,SIM104225,600.2,Cleansing_Pipe,Prince,,
+0,63,,SIM204888,484.25,Cablefit_Double_Wall_Corrugated_Pipes_(6_mtr),Prince,,
+1,75,,SIM204889,627.7,Cablefit_Double_Wall_Corrugated_Pipes_(6_mtr),Prince,,
+2,90,,SIM204890,896.75,Cablefit_Double_Wall_Corrugated_Pipes_(6_mtr),Prince,,
+3,110,,SIM204891,1165.8,Cablefit_Double_Wall_Corrugated_Pipes_(6_mtr),Prince,,
+4,120,,SIM204892,1345.1,Cablefit_Double_Wall_Corrugated_Pipes_(6_mtr),Prince,,
+5,160,,SIM204893,1972.8,Cablefit_Double_Wall_Corrugated_Pipes_(6_mtr),Prince,,
+0,110,,-,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,-,S 25 / SN 2 / SDR 51 
+1,110,,-,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,491.9,S 20 / SN 4 / SDR 41 
+2,110,,-,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,491.9,S 16.5 / SN 8 / SDR 34 
+3,160,,SIM200950,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,688.95,S 25 / SN 2 / SDR 51 
+4,160,,SIM200955,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,883.9,S 20 / SN 4 / SDR 41 
+5,160,,SIM200960,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,1030.35,S 16.5 / SN 8 / SDR 34 
+6,200,,SIM200951,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,1059.8,S 25 / SN 2 / SDR 51 
+7,200,,SIM200956,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,1344.0,S 20 / SN 4 / SDR 41 
+8,200,,SIM200961,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,1574.5,S 16.5 / SN 8 / SDR 34 
+9,250,,SIM200952,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,1681.7,S 25 / SN 2 / SDR 51 
+10,250,,SIM200957,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,2144.6,S 20 / SN 4 / SDR 41 
+11,250,,SIM200962,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,2512.5,S 16.5 / SN 8 / SDR 34 
+12,315,,SIM200953,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,2651.0,S 25 / SN 2 / SDR 51 
+13,315,,SIM200958,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,3355.5,S 20 / SN 4 / SDR 41 
+14,315,,SIM200963,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,4012.4,S 16.5 / SN 8 / SDR 34 
+15,400,,SIM200954,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,4409.0,S 25 / SN 2 / SDR 51 
+16,400,,SIM200959,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,5427.0,S 20 / SN 4 / SDR 41 
+17,400,,SIM200964,,Underground_Drainage_Pipes_(6_Mtr)_Solvent_Joint_formatted,Prince,6337.8,S 16.5 / SN 8 / SDR 34 
+0,110,,-,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,-,S 25 / SN 2 / SDR 51 
+1,110,,SIM203799,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,502.7,S 20 / SN 4 / SDR 41 
+2,110,,-,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,-,S 16.5 / SN 8 / SDR 34 
+3,160,,SIM204343,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,709.55,S 25 / SN 2 / SDR 51 
+4,160,,SIM202950,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,901.6,S 20 / SN 4 / SDR 41 
+5,160,,SIM202974,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,1050.0,S 16.5 / SN 8 / SDR 34 
+6,200,,-,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,-,S 25 / SN 2 / SDR 51 
+7,200,,SIM203287,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,1354.8,S 20 / SN 4 / SDR 41 
+8,200,,SIM200973,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,1598.4,S 16.5 / SN 8 / SDR 34 
+9,250,,SIM200969,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,1749.8,S 25 / SN 2 / SDR 51 
+10,250,,SIM200972,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,2203.4,S 20 / SN 4 / SDR 41 
+11,250,,SIM200974,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,2535.0,S 16.5 / SN 8 / SDR 34 
+12,315,,SIM200970,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,2835.3,S 25 / SN 2 / SDR 51 
+13,315,,SIM202651,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,3422.6,S 20 / SN 4 / SDR 41 
+14,315,,SIM202955,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,4445.0,S 16.5 / SN 8 / SDR 34 
+15,400,,SIM200971,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,4497.2,S 25 / SN 2 / SDR 51 
+16,400,,-,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,-,S 20 / SN 4 / SDR 41 
+17,400,,-,,Underground_Drainage_Pipes_(6_Mtr)_Rubber_Ring_Joint_formatted,Prince,-,S 16.5 / SN 8 / SDR 34 

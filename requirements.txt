@@ -1,0 +1,18 @@
+# Existing dependencies
+Flask==2.1.2
+Werkzeug==2.0.3
+gspread==5.10.0
+oauth2client==4.1.3
+python-dotenv==0.21.0
+pytest==7.3.1
+
+# New dependencies for catalogue search and CSV handling
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# Twilio helper for TwiML responses
+twilio>=7.0.0
+
+# For transformer-based semantic search
+sentence-transformers>=2.2.2
+torch>=1.13.0 

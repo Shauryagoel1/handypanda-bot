@@ -1,0 +1,5 @@
+SKU_ID,SKU,ProductName,Category,Brand,DimScheme,SizeText,DimA,DimB,DimUnit,PriceUnit,SellingPrice,CostPrice,StockQty,Supplier,Notes
+,COUP-OD110,Coupler,UPVC Fittings,Prince,OD,110 mm,110,0,mm,PCS,364.85,298.0,20,Local PVC Market – Stall 7,"PN6, IS:4985"
+,RED-OD110x75,Reducer Coupler,UPVC Fittings,Prince,ODxOD,110 x 75 mm,110,75,mm,PCS,139.7,100.0,15,Local PVC Market – Stall 7,Reduces 110 mm to 75 mm
+,PIPE-OD110-6M,Pipe (6 m),UPVC Pipes,Prince,OD,110 mm,110,0,mm,Mtr,179.5,140.0,50,Local PVC Distributor,"PN6, price per meter"
+,VALVE-OD25,Ball Valve,Valves,Prince,OD,25 mm,25,0,mm,PCS,92.0,70.0,30,Valve Supplier,Lever handle
