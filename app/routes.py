@@ -4,6 +4,7 @@ import traceback
 import json
 import sys
 import logging
+from datetime import datetime
 
 from twilio.twiml.messaging_response import MessagingResponse
 from app.services.catalogue import enhanced_search
@@ -153,7 +154,7 @@ def webhook():
             qty = MessageParser.extract_quantity(user_msg)
             
             order_data = {
-                "Timestamp": conversation_state[user_phone]['timestamp'],
+                "Timestamp": datetime.now().isoformat(),  # Use current timestamp
                 "Phone": user_phone,
                 "Query": user_msg,
                 "SKU_ID": best['id'],

@@ -16,6 +16,11 @@ _model       = None
 _embeddings  = None
 _ITEM_TYPES  = None
 
+def init_catalogue():
+    """
+    Initialize the catalogue service. This should be called when the app is created.
+    """
+    load_catalogue()
 
 def load_catalogue():
     """
@@ -23,6 +28,9 @@ def load_catalogue():
     columns, builds sentence-transformer embeddings, caches item-type set.
     """
     global _catalogue, _model, _embeddings, _ITEM_TYPES
+
+    # Log that we're loading the catalogue
+    print("Loading catalogue and initializing embeddings model...")
 
     df = sheets.load_catalogue_df()        # <-- fresh DataFrame incl. SKU_IDs
 
@@ -61,6 +69,8 @@ def load_catalogue():
     _embeddings = _model.encode(texts, convert_to_numpy=True)
 
     _ITEM_TYPES = set(p['name'].lower() for p in _catalogue)
+    
+    print("Catalogue loaded and embeddings model initialized successfully!")
 
 
 # -------- Dimension / scheme distance helpers ----------
@@ -120,6 +130,7 @@ def enhanced_search(query: str, top_n: int = 3):
     """
     global _catalogue, _model, _embeddings, _ITEM_TYPES
     if not _catalogue:
+        # This is now just a safety check, should not normally be needed
         load_catalogue()
 
     q_low   = query.lower()
