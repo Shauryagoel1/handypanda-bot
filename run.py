@@ -9,4 +9,6 @@ if __name__ == '__main__':
     print(f"GOOGLE_SHEET_TITLE: {app.config.get('GOOGLE_SHEET_TITLE')}")
     print(f"CATALOGUE_TAB: {app.config.get('CATALOGUE_TAB')}")
     print(f"ORDERS_TAB: {app.config.get('ORDERS_TAB')}")
+    
+    # Run the app
     app.run(debug=True)

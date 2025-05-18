@@ -30,13 +30,13 @@ main_bp = Blueprint('main', __name__)
 def send_quick_reply(resp, body_text, button_texts):
     """
     Sends a single message combining the body text and numbered options.
-    Uses WhatsApp-friendly formatting.
+    Uses WhatsApp-friendly formatting with proper spacing and emojis.
     """
-    # Format options with emojis for better visibility
+    # Format options with emojis and proper spacing
     options = [f"📎 {idx}. {text}" for idx, text in enumerate(button_texts, start=1)]
     
     # Combine with double line breaks for WhatsApp
-    message_text = body_text + "\n\n" + "\n".join(options)
+    message_text = f"{body_text}\n\n" + "\n".join(options)
     
     logger.info(f"📤 Sending quick reply message: {message_text}")
     resp.message(message_text)
@@ -64,7 +64,7 @@ def webhook():
         
         logger.info(f"📦 Parsed data: {json.dumps(data, indent=2)}")
         
-        user_msg = data.get('Body', '').strip()
+        user_msg = data.get('Body', '').strip().lower()  # Convert to lowercase for easier matching
         user_phone = data.get('From', '')
         logger.info(f"📱 Phone: {user_phone}")
         logger.info(f"💬 Message: {user_msg}")
@@ -74,6 +74,21 @@ def webhook():
 
         resp = MessagingResponse()
 
+        # ---------- Handle greetings ----------
+        greetings = {'hi', 'hello', 'hey', 'hii', 'hiii', 'hiiii', 'helo', 'hllo', 'hola'}
+        if user_msg in greetings:
+            message = "👋 Hi! Please tell me what plumbing item you're looking for.\nExample: 2 pieces of bend"
+            resp.message(message)
+            logger.info(f"📤 Sending greeting response: {str(resp)}")
+            return Response(str(resp), mimetype='application/xml')
+
+        # ---------- Handle very short or unclear messages ----------
+        if len(user_msg.split()) < 2 and not any(char.isdigit() for char in user_msg):
+            message = "🤔 Could you please specify what item you need and the quantity?\nExample: 2 pieces of bend"
+            resp.message(message)
+            logger.info(f"📤 Sending clarification response: {str(resp)}")
+            return Response(str(resp), mimetype='application/xml')
+
         # ---------- Handle user confirmations ----------
         if user_msg.startswith("Order ID-"):
             try:
@@ -81,9 +96,13 @@ def webhook():
                 sku_id = user_msg.split("Order ID-")[-1].strip()
                 sheets.update_status(user_phone, sku_id, "Awaiting Payment")
 
-                # Placeholder payment link with better formatting
-                pay_url = f"https://pay.example.com/{sku_id}"
-                resp.message(f"✅ Thank you for your order!\n\n💳 Complete payment here:\n{pay_url}")
+                # Format confirmation message with proper spacing
+                message = (
+                    "✅ Thank you for your order!\n\n"
+                    "💳 Complete payment here:\n"
+                    f"https://pay.example.com/{sku_id}"
+                )
+                resp.message(message)
                 logger.info(f"📤 Sending payment response: {str(resp)}")
                 return Response(str(resp), mimetype='application/xml')
             except Exception as e:
@@ -110,9 +129,9 @@ def webhook():
         best = matches[0]
         logger.info(f"✨ Best match: {best['brand']} {best['name']}")
         
-        # Format product details with emojis and better spacing
+        # Format product details with proper WhatsApp markdown and spacing
         body_text = (
-            f"✨ I found: _{best['brand']} {best['name']}_\n"
+            f"✨ I found: _{best['brand']} {best['name']}_\n"  # Underscore for italics
             f"📦 Size: {best['size_text']}\n"
             f"💰 Price: ₹{best['price']}/{best['price_unit']}\n\n"
             "Would you like to order?"
