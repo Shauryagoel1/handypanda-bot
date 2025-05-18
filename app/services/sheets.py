@@ -29,6 +29,7 @@ logger = logging.getLogger(__name__)
 def _authorize():
     """
     Authorizes with Google Sheets API using service account credentials.
+    Can use either a file or environment variable for credentials.
     """
     try:
         scope = [
@@ -37,21 +38,32 @@ def _authorize():
         ]
         creds_file = current_app.config["GOOGLE_CREDENTIALS_FILE"]
         
-        # Verify credentials file exists
-        if not os.path.exists(creds_file):
-            error_msg = f"❌ Credentials file not found: {creds_file}"
-            logger.error(error_msg)
-            raise FileNotFoundError(error_msg)
+        # First try to load from environment variable if it looks like JSON
+        if creds_file.startswith('{') and creds_file.endswith('}'):
+            try:
+                import json
+                creds_dict = json.loads(creds_file)
+                logger.info("🔑 Using credentials from environment variable")
+                creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
+                logger.info("✅ Successfully loaded credentials from environment")
+            except Exception as e:
+                logger.error(f"❌ Failed to parse credentials from environment: {str(e)}")
+                raise
+        else:
+            # Fall back to file-based credentials
+            if not os.path.exists(creds_file):
+                error_msg = f"❌ Credentials file not found: {creds_file}"
+                logger.error(error_msg)
+                raise FileNotFoundError(error_msg)
+                
+            logger.info(f"🔑 Using credentials file: {creds_file}")
             
-        logger.info(f"🔑 Using credentials file: {creds_file}")
-        
-        # Load and verify credentials
-        try:
-            creds = ServiceAccountCredentials.from_json_keyfile_name(creds_file, scope)
-            logger.info("✅ Successfully loaded credentials")
-        except Exception as e:
-            logger.error(f"❌ Failed to load credentials: {str(e)}")
-            raise
+            try:
+                creds = ServiceAccountCredentials.from_json_keyfile_name(creds_file, scope)
+                logger.info("✅ Successfully loaded credentials")
+            except Exception as e:
+                logger.error(f"❌ Failed to load credentials: {str(e)}")
+                raise
             
         # Authorize with gspread
         try:
