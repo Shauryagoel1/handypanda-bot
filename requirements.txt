@@ -17,6 +17,7 @@ numpy>=1.22.0,<2.0.0
 # Twilio integration
 twilio>=7.0.0,<8.0.0
 
-# ML/NLP dependencies
-sentence-transformers>=2.7.0,<3.0.0
-torch>=2.2.0,<2.3.0 --index-url https://download.pytorch.org/whl/cpu
+# ML/NLP dependencies - CPU only versions
+--find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+torch==2.2.0+cpu
+sentence-transformers==2.7.0

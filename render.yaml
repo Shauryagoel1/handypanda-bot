@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: jirago-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn run:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9
+    disk:
+      name: pip-cache
+      mountPath: /root/.cache/pip
+      sizeGB: 1 
