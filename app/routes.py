@@ -30,10 +30,16 @@ main_bp = Blueprint('main', __name__)
 def send_quick_reply(resp, body_text, button_texts):
     """
     Sends a single message combining the body text and numbered options.
+    Uses WhatsApp-friendly formatting.
     """
-    # Combine the main text and options into one message
-    lines = [body_text] + [f"{idx}. {text}" for idx, text in enumerate(button_texts, start=1)]
-    resp.message("\n".join(lines))
+    # Format options with emojis for better visibility
+    options = [f"📎 {idx}. {text}" for idx, text in enumerate(button_texts, start=1)]
+    
+    # Combine with double line breaks for WhatsApp
+    message_text = body_text + "\n\n" + "\n".join(options)
+    
+    logger.info(f"📤 Sending quick reply message: {message_text}")
+    resp.message(message_text)
 
 # -------------------------------------------------
 # Webhook endpoint
@@ -75,34 +81,40 @@ def webhook():
                 sku_id = user_msg.split("Order ID-")[-1].strip()
                 sheets.update_status(user_phone, sku_id, "Awaiting Payment")
 
-                # Placeholder payment link
+                # Placeholder payment link with better formatting
                 pay_url = f"https://pay.example.com/{sku_id}"
-                resp.message(f"Thank you! Please complete payment here:\n{pay_url}")
+                resp.message(f"✅ Thank you for your order!\n\n💳 Complete payment here:\n{pay_url}")
+                logger.info(f"📤 Sending payment response: {str(resp)}")
                 return Response(str(resp), mimetype='application/xml')
             except Exception as e:
                 logger.error(f"❌ Error updating order status: {str(e)}")
                 logger.error(traceback.format_exc())
-                resp.message("Sorry, there was an error processing your order. Please try again.")
+                resp.message("❌ Sorry, there was an error processing your order. Please try again.")
+                logger.info(f"📤 Sending error response: {str(resp)}")
                 return Response(str(resp), mimetype='application/xml')
 
         if re.match(r'^no thanks$', user_msg, re.I):
-            resp.message("No problem. Let me know if you need anything else!")
+            resp.message("👍 No problem! Let me know if you need anything else.")
+            logger.info(f"📤 Sending 'no thanks' response: {str(resp)}")
             return Response(str(resp), mimetype='application/xml')
 
         # ---------- Product search ----------
         logger.info("🔍 Searching for products")
         matches = enhanced_search(user_msg, top_n=3)
         if not matches:
-            resp.message("Sorry, couldn't find matching items.")
+            resp.message("🔍 Sorry, I couldn't find any matching items.")
+            logger.info(f"📤 Sending no matches response: {str(resp)}")
             return Response(str(resp), mimetype='application/xml')
 
         # Choose best match and send options
         best = matches[0]
         logger.info(f"✨ Best match: {best['brand']} {best['name']}")
         
+        # Format product details with emojis and better spacing
         body_text = (
-            f"I found *{best['brand']} {best['name']}* "
-            f"({best['size_text']}) — ₹{best['price']}/{best['price_unit']}. "
+            f"✨ I found: _{best['brand']} {best['name']}_\n"
+            f"📦 Size: {best['size_text']}\n"
+            f"💰 Price: ₹{best['price']}/{best['price_unit']}\n\n"
             "Would you like to order?"
         )
         buttons = [f"Order ID-{best['id']}", "No thanks"]
@@ -133,10 +145,12 @@ def webhook():
             logger.error(traceback.format_exc())
             # Continue with response even if logging fails
             
+        logger.info(f"📤 Sending final response: {str(resp)}")
         return Response(str(resp), mimetype='application/xml')
     except Exception as e:
         logger.error(f"❌ Webhook error: {str(e)}")
         logger.error(traceback.format_exc())
         resp = MessagingResponse()
-        resp.message("Sorry, something went wrong. Please try again later.")
+        resp.message("❌ Sorry, something went wrong. Please try again later.")
+        logger.info(f"📤 Sending error response: {str(resp)}")
         return Response(str(resp), mimetype='application/xml')
