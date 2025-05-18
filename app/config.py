@@ -14,5 +14,9 @@ class Config:
     CATALOGUE_TAB           = os.getenv('CATALOGUE_TAB', 'Catalogue')
     ORDERS_TAB              = os.getenv('ORDERS_TAB', 'Orders_Status')
     ORDERS_LOG_TAB          = os.getenv('ORDERS_LOG_TAB', 'Orders_Log')
+    
+    # Payment settings
+    UPI_NUMBER             = os.getenv('UPI_NUMBER', '8708065048')
+    
     # Catalogue file fallback (rarely used now—most loads from Sheets)
     CATALOGUE_FILE = os.getenv('CATALOGUE_FILE', 'catalogue_master.csv')

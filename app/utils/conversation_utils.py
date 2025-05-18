@@ -2,6 +2,7 @@ from collections import defaultdict
 from datetime import datetime
 import re
 import logging
+from flask import current_app
 
 # Simple in-memory store for conversation state
 # In production, you'd want to use Redis or a database
@@ -11,6 +12,8 @@ class MessageParser:
     GREETINGS = {'hi', 'hello', 'hey', 'hii', 'hiii', 'hiiii', 'helo', 'hllo', 'hola'}
     YES_RESPONSES = {'yes', 'yeah', 'yep', 'sure', 'ok', '1'}
     NO_RESPONSES = {'no', 'nope', 'no thanks', 'nah', '2'}
+    COD_RESPONSES = {'cod', 'cash', 'cash on delivery', '1'}
+    UPI_RESPONSES = {'upi', 'online', 'gpay', 'google pay', 'phonepe', '2'}
 
     @staticmethod
     def normalize_message(message: str) -> str:
@@ -31,6 +34,16 @@ class MessageParser:
     def is_no_response(message: str) -> bool:
         """Check if message is a negative response"""
         return message in MessageParser.NO_RESPONSES
+
+    @staticmethod
+    def is_cod_response(message: str) -> bool:
+        """Check if message indicates Cash on Delivery"""
+        return message in MessageParser.COD_RESPONSES
+
+    @staticmethod
+    def is_upi_response(message: str) -> bool:
+        """Check if message indicates UPI payment"""
+        return message in MessageParser.UPI_RESPONSES
 
     @staticmethod
     def extract_quantity(message: str) -> str:
@@ -79,44 +92,55 @@ class ConversationManager:
 class MessageFormatter:
     @staticmethod
     def format_greeting() -> str:
-        return "👋 Hi! Please tell me what plumbing item you're looking for.\nExample: 2 pieces of bend"
+        return "👋 Hi! What plumbing item do you need?\nExample: 2 pieces bend"
 
     @staticmethod
     def format_clarification() -> str:
-        return "🤔 Could you please specify what item you need and the quantity?\nExample: 2 pieces of bend"
+        return "🤔 Please specify item and quantity.\nExample: 2 pieces bend"
 
     @staticmethod
     def format_no_matches() -> str:
-        return "🔍 Sorry, I couldn't find any matching items."
+        return "🔍 No matching items found. Please try again."
 
     @staticmethod
     def format_error_response() -> str:
-        return "❌ Sorry, something went wrong. Please try again later."
+        return "❌ Something went wrong. Please try again."
 
     @staticmethod
     def format_order_error() -> str:
-        return "❌ Sorry, there was an error processing your order. Please try again."
+        return "❌ Order processing failed. Please try again."
 
     @staticmethod
     def format_no_thanks() -> str:
-        return "👍 No problem! Let me know if you need anything else."
+        return "👍 Got it. Let me know if you need anything else!"
 
     @staticmethod
     def format_product_response(product: dict) -> tuple[str, list[str]]:
         """Format product details and return message and buttons"""
         body_text = (
-            f"✨ I found: _{product['brand']} {product['name']}_\n"
+            f"✨ Found: {product['brand']} {product['name']}\n"
             f"📦 Size: {product['size_text']}\n"
             f"💰 Price: ₹{product['price']}/{product['price_unit']}\n\n"
-            "Would you like to order?"
+            "Would you like to place order?"
         )
-        buttons = ["Yes", "No thanks"]
+        buttons = ["Yes", "No"]
         return body_text, buttons
 
     @staticmethod
-    def format_order_confirmation(sku_id: str) -> str:
+    def format_payment_options() -> tuple[str, list[str]]:
+        """Format payment options message"""
+        body_text = "Choose payment method:"
+        buttons = ["Cash on Delivery", "UPI"]
+        return body_text, buttons
+
+    @staticmethod
+    def format_cod_confirmation() -> str:
+        return "✅ Order confirmed! We'll contact you for delivery details."
+
+    @staticmethod
+    def format_upi_payment_instructions() -> str:
+        upi_number = current_app.config['UPI_NUMBER']
         return (
-            "✅ Thank you for your order!\n\n"
-            "💳 Complete payment here:\n"
-            f"https://pay.example.com/{sku_id}"
+            f"Pay using UPI: {upi_number}@upi\n"
+            "Send payment screenshot for quick verification."
         ) 

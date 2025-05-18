@@ -90,14 +90,13 @@ def webhook():
                 if MessageParser.is_yes_response(user_msg):
                     try:
                         logger.info("🔄 Processing order confirmation")
-                        sku_id = conversation.get_current_sku()
-                        sheets.update_status(user_phone, sku_id, "Awaiting Payment")
-                        resp.message(MessageFormatter.format_order_confirmation(sku_id))
-                        conversation.clear_state()
-                        logger.info(f"📤 Sending payment response: {str(resp)}")
+                        # Instead of going straight to payment, show payment options
+                        body_text, buttons = MessageFormatter.format_payment_options()
+                        send_quick_reply(resp, body_text, buttons)
+                        logger.info(f"📤 Sending payment options: {str(resp)}")
                         return Response(str(resp), mimetype='application/xml')
                     except Exception as e:
-                        logger.error(f"❌ Error updating order status: {str(e)}")
+                        logger.error(f"❌ Error showing payment options: {str(e)}")
                         logger.error(traceback.format_exc())
                         resp.message(MessageFormatter.format_order_error())
                         logger.info(f"📤 Sending error response: {str(resp)}")
@@ -107,6 +106,34 @@ def webhook():
                     resp.message(MessageFormatter.format_no_thanks())
                     logger.info(f"📤 Sending 'no thanks' response: {str(resp)}")
                     return Response(str(resp), mimetype='application/xml')
+                elif MessageParser.is_cod_response(user_msg):
+                    try:
+                        logger.info("🔄 Processing COD order")
+                        sku_id = conversation.get_current_sku()
+                        sheets.update_status(user_phone, sku_id, "COD Confirmed")
+                        resp.message(MessageFormatter.format_cod_confirmation())
+                        conversation.clear_state()
+                        logger.info(f"📤 Sending COD confirmation: {str(resp)}")
+                        return Response(str(resp), mimetype='application/xml')
+                    except Exception as e:
+                        logger.error(f"❌ Error processing COD order: {str(e)}")
+                        logger.error(traceback.format_exc())
+                        resp.message(MessageFormatter.format_order_error())
+                        return Response(str(resp), mimetype='application/xml')
+                elif MessageParser.is_upi_response(user_msg):
+                    try:
+                        logger.info("🔄 Processing UPI payment request")
+                        sku_id = conversation.get_current_sku()
+                        sheets.update_status(user_phone, sku_id, "Awaiting UPI Payment")
+                        resp.message(MessageFormatter.format_upi_payment_instructions())
+                        conversation.clear_state()
+                        logger.info(f"📤 Sending UPI instructions: {str(resp)}")
+                        return Response(str(resp), mimetype='application/xml')
+                    except Exception as e:
+                        logger.error(f"❌ Error processing UPI payment request: {str(e)}")
+                        logger.error(traceback.format_exc())
+                        resp.message(MessageFormatter.format_order_error())
+                        return Response(str(resp), mimetype='application/xml')
 
             resp.message(MessageFormatter.format_clarification())
             logger.info(f"📤 Sending clarification response: {str(resp)}")
