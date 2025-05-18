@@ -15,5 +15,6 @@ scikit-learn>=1.0.0
 twilio>=7.0.0
 
 # For transformer-based semantic search
+numpy>=1.22
 sentence-transformers>=2.7
 torch==2.2.*
